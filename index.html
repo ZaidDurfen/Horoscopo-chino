@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horóscopo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> ¿Conoses Tu signo chino?</h1>
+        <input type="number" id="añoNacimiento" placeholder="Ingrese su año de nacimiento">
+        <button onclick="calcularSigno()">Examinando signo</button>
+
+        <div class="resultado-container">
+            <article class="resultado-article">
+                <h2>Residuo de  División</h2>
+                <p id="residuoTexto"></p>
+            </article>
+            <article class="resultado-article">
+                <h2>Signo del Año</h2>
+                <p id="signoTexto"></p>
+            </article>
+            <article class="resultado-article">
+                <h2>tu signp es</h2>
+                <img id="imagenSigno" class="imagen-signo" alt="Imagen del signo" src="">
+            </article>
+        </div>
+    </div>
+</body>
+</html>
